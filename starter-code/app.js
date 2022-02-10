@@ -201,4 +201,5 @@ Student.prototype.scopeArrow = () => console.log(this);
 // 3. Explain why "this" is different when an arrow function is used.
 // a function defines its "this" value, whereas the arrow functions treat
 // the this keyword differently because there is not context defined on the arrow function.
-// they inherit from the parent scope when you call the this 
+// they inherit from the parent scope when you call the this. The arrow function causes the 
+//this keyword to scope to the window object rather than the student object
